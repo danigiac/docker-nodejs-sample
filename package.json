@@ -1,9 +1,10 @@
 {
-  "name": "docker-nodejs",
+  "name": "mydocker-nodejs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
+  "description": "a string that contains a human-readable description of the module." ,
+    "scripts": {
     "prettify": "prettier -l --write \"**/*.js\"",
     "test": "jest",
     "dev": "nodemon --inspect=0.0.0.0:9229 -L src/index.js"
